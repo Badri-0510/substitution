@@ -1,0 +1,137 @@
+.attendance-container {
+    background-image: url('https://i0.wp.com/stanzaliving.wpcomstaging.com/wp-content/uploads/2022/04/c3192-schools-in-mumbai.jpg?fit=1000%2C567&ssl=1');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    min-height: 100vh;
+    color: #333;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.day-selector {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.day-selector label {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.day-selector input[type="date"] {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.teacher-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.teacher-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.teacher-item:hover {
+    transform: scale(1.02);
+}
+
+.status {
+    font-weight: bold;
+}
+
+.present-status {
+    color: #4CAF50;
+}
+
+.absent-status {
+    color: #FF5722;
+}
+
+.button-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.mark-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    outline: none;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.present-button {
+    background-color: #4CAF50;
+}
+
+.present-button:hover {
+    background-color: #388E3C;
+}
+
+.absent-button {
+    background-color: #FF5722;
+}
+
+.absent-button:hover {
+    background-color: #E64A19;
+}
+
+.mark-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none; /* Disable animation when disabled */
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.submit-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+.submit-button:hover {
+    background-color: #0b7dda;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}

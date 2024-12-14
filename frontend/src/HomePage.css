@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url('https://jns.ac.in/assets/images/gift_city_JNS.jpg'); /* Full background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Makes the background image fixed while scrolling */
+    color: #fff;
+  }
+  
+  /* Header Styling */
+  .header {
+    padding: 5rem;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); /* Opaque background */
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+  }
+  
+  /* About Section Styling */
+  .about-section {
+    padding: 3rem;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); /* Opaque background */
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Features Section Styling */
+  .features-section {
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Opaque background */
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .features-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+  }
+  
+  .features-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Menu Section Styling */
+  .menu-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Opaque background */
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .menu-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: #0b7dda;
+    transform: scale(1.05);
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Opaque background */
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .footer h3 {
+    margin-bottom: 0.5rem;
+    color: #4CAF50;
+  }
+  
+  .footer p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+  
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  

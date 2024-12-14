@@ -1,0 +1,65 @@
+/* TeacherTable.css */
+body {
+  background-image: url('https://jns.ac.in/assets/images/gift_city_JNS.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+.table-container {
+  width: 80%;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.957); /* Keeping the white background with some transparency */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.table-title {
+  text-align: center;
+  font-size: 2em;
+  color: black; /* Set the text color to black */
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6); /* Light text shadow for better contrast */
+}
+
+.teacher-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: black; 
+  text-align: left;
+  animation: slideIn 1s ease-out;
+}
+
+.teacher-table th,
+.teacher-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.teacher-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.teacher-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.teacher-table tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-20px); }
+  to { transform: translateY(0); }
+}
